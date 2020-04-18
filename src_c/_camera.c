@@ -1882,7 +1882,7 @@ Camera(pgCameraObject *self, PyObject *arg)
         cameraobj->boundsRect.bottom = h;
         cameraobj->boundsRect.right = w;
         cameraobj->size = w * h;
-        cameraobj->hflip = 0;
+        cameraobj->hflip = 180;
         cameraobj->vflip = 0;
     }
 
